@@ -13,5 +13,6 @@ public class Run {
         System.out.println("辣度:"+TF.Hot);
         c.Menu(HLB);
         System.out.println("成本:"+HLB.Cost+'元');
+        HLB.taste();
     }
 }
